@@ -16,7 +16,6 @@ How do you improve?
 - Look back and refactor
 
 - Understand the problem
-
     - Can you restate teh problem in your own words?
     - What are the inputs that go into the problem?
     - What are the outputs that go into the problem?
@@ -32,7 +31,6 @@ Example: Write a function which takwes 2 numbers and returns their sum.
 5. How should I label the important pieces of data that are part of the problem? Sum, Total num1, num2. What are the descriptive names of varialbes.
 
 - Explore Concrete Examples
-
     - Can help you to understand problem better.
     - Examples provide sanity checks that your eventual solution works how it should.
         - User Stories or Unit tests.
@@ -50,5 +48,30 @@ Example: Write a function which takes in a string and returns counts of each cha
 4. charCount(); Do we want null, undefined, empty string.
 
 - Break it Down
+    - Explicitly write out the steps you need to take.
 
+Example: Write a function which takes in a string and returns counts of each character in the string.
 
+1. make object to return object at end
+2. loop over string
+    3. if the char is a number/letter AND is a key in the object, add one to the count
+    4. if the char is a number/letter AND is not in the object, add it to the object and set value to 1.
+    5. if char is something else (period, space, etc.) don't do anything.
+6. return object
+
+- Solve/Simplify
+    - If you can't solve, move to simpler part that you can solve.
+    - You may gain insight from the simpler problem.
+
+1. Find the core difficulty in waht you're tryin to do.
+2. Temporarily ignore that difficulty
+3. Write a simplified solution.
+4. Then  incorporate that difficulty back in.
+
+Example: Write a function which takes in a string and returns counts of each character in the string.
+
+- if you have trouble looping, start with one character
+
+- Look back and refactor
+    - 
+    
