@@ -73,5 +73,10 @@ Example: Write a function which takes in a string and returns counts of each cha
 - if you have trouble looping, start with one character
 
 - Look back and refactor
-    - 
+    - Now that the code is completed, go back and look at code to see where you can improve it and refactor that code.
+    - Maybe now that the code is completed, hte parts that didn't make sense now do. you can refactor those parts of the code now. 
+    - Maybe that you've completed the code, you seea  more efficient way of doing now.
+
+- Recap and Interview Strategies
+    -
     
