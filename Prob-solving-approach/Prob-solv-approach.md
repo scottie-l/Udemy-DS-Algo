@@ -16,11 +16,11 @@ How do you improve?
 - Look back and refactor
 
 - Understand the problem
-    - Can you restate teh problem in your own words?
-    - What are the inputs that go into the problem?
-    - What are the outputs that go into the problem?
-    - Can the outputs be determined form the inputs? (Do you have enough information to solve the problem? You may or may not until further in problem.)
-    - How should I label the important pieces of data that are a part of the problem?
+  - Can you restate teh problem in your own words?
+  - What are the inputs that go into the problem?
+  - What are the outputs that go into the problem?
+  - Can the outputs be determined form the inputs? (Do you have enough information to solve the problem? You may or may not until further in problem.)
+  - How should I label the important pieces of data that are a part of the problem?
 
 Example: Write a function which takwes 2 numbers and returns their sum.
 
@@ -31,9 +31,9 @@ Example: Write a function which takwes 2 numbers and returns their sum.
 5. How should I label the important pieces of data that are part of the problem? Sum, Total num1, num2. What are the descriptive names of varialbes.
 
 - Explore Concrete Examples
-    - Can help you to understand problem better.
-    - Examples provide sanity checks that your eventual solution works how it should.
-        - User Stories or Unit tests.
+  - Can help you to understand problem better.
+  - Examples provide sanity checks that your eventual solution works how it should.
+    - User Stories or Unit tests.
 
 1. Start with simple examples.
 2. Progress to more complex examples.
@@ -48,20 +48,20 @@ Example: Write a function which takes in a string and returns counts of each cha
 4. charCount(); Do we want null, undefined, empty string.
 
 - Break it Down
-    - Explicitly write out the steps you need to take.
+  - Explicitly write out the steps you need to take.
 
 Example: Write a function which takes in a string and returns counts of each character in the string.
 
 1. make object to return object at end
 2. loop over string
-    3. if the char is a number/letter AND is a key in the object, add one to the count
-    4. if the char is a number/letter AND is not in the object, add it to the object and set value to 1.
-    5. if char is something else (period, space, etc.) don't do anything.
-6. return object
+    - if the char is a number/letter AND is a key in the object, add one to the count
+    - if the char is a number/letter AND is not in the object, add it to the object and set value to 1.
+    - if char is something else (period, space, etc.) don't do anything.
+3. return object
 
 - Solve/Simplify
-    - If you can't solve, move to simpler part that you can solve.
-    - You may gain insight from the simpler problem.
+  - If you can't solve, move to simpler part that you can solve.
+  - You may gain insight from the simpler problem.
 
 1. Find the core difficulty in waht you're tryin to do.
 2. Temporarily ignore that difficulty
@@ -73,10 +73,14 @@ Example: Write a function which takes in a string and returns counts of each cha
 - if you have trouble looping, start with one character
 
 - Look back and refactor
-    - Now that the code is completed, go back and look at code to see where you can improve it and refactor that code.
-    - Maybe now that the code is completed, hte parts that didn't make sense now do. you can refactor those parts of the code now. 
-    - Maybe that you've completed the code, you seea  more efficient way of doing now.
+  - look back at the parts you didn't understand or can do better. Go line by line to see what you can change or make more effecient.
 
-- Recap and Interview Strategies
-    -
-    
+Refactoring Questions
+
+  - Can you check the results?
+  - Can you derive the results differently?
+  - Can you understand it at a glance?
+  - Can you use the results or method for some other problem?
+  - Can you improve the performance of your solution?
+  - Can you think if other ways to refactor?
+  - How have other people solved this problem?

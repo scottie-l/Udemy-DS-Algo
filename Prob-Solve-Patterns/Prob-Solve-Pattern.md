@@ -1,7 +1,12 @@
 # Intro to Probelm Solving Patterns
 
-- Frequency Counter Pattern
-    -
+Some Pattern names
+- Frequrncy Counter
+- Multiple Pointers
+- Sliding Window
+- Divide and Conquer
+- Dynamic Programming
+- Greedy Algorithms
+- Backtracking
+- Many more
 
-- Frequency Counter: Anagram Challenge:
-    -
